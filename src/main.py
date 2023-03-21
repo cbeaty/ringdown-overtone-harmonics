@@ -59,7 +59,7 @@ class ComputeQNMParameters():
 
 if __name__ == '__main__':
     lm_modes = ((2,2), (2,1), (3,3), (4,4))
-    lmn_modes = ((2,2,0), (2,2,1), (3,3,0), (4,4,0), (2,1,0))
+    lmn_modes = ((2,2,0), (2,2,1), (3,3,0), (4,4,0), (2,1,0), (2,2,2))
     lm_dominant = (2,2)
     file_path = 'import_data'
     ComputeQNMParameters(file_path, lm_modes, lmn_modes, lm_dominant)
